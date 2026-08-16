@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    height: 4rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+nav {
+    width: 30rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.banner {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+  border-radius: 50%;
+  border: 5px solid #f0f0f0;
+  
+}
+.center {
+  
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;
+  
+}
